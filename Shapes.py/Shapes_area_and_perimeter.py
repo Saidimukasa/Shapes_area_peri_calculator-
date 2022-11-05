@@ -1,10 +1,12 @@
-
+# importing the ABC module, inorder to use the Abstract classes and Methods
 from abc import ABC, abstractmethod
 # abstract class Shapes
 class Shapes(ABC):
+#     Abstact method for area
     @abstractmethod
     def area(self):
         pass
+#    abstract method for Perimeter
     @abstractmethod
     def perimeter(self):
         pass
